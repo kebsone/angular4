@@ -1,0 +1,60 @@
+/* You can add global styles to this file, and also import other style files */
+a.selected-menu{
+font-size: large;
+  font-style: italic;
+  color:rgba(0,0,0,.9);
+  font-size: 1.25rem;
+
+}
+
+
+.navbar-nav .nav-link:hover {
+  color: rgba(12, 80, 65, 0.9);
+}
+.navbar-light .navbar-nav .nav-link {
+  color: #fff;
+}
+
+.navbar-brand {
+  display: inline-block;
+  padding-top: .25rem;
+  padding-bottom: .25rem;
+  margin-right: 1rem;
+  font-size: 1.25rem;
+  line-height: inherit;
+  white-space: nowrap;
+}
+
+.icon-margin-right {
+  margin-right: 0.5em;
+}
+
+@media (min-width: 1200px) {
+  .container{
+      max-width: 900px;
+      position: relative;
+      scroll-behavior: right;
+  }
+}
+
+.cadre {
+  background-color: rgba(128, 128, 128, 0.171);
+margin: 30px 10px;
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+border-radius: 10px;
+}
+
+.left-div{
+  border-right: 1px;
+  background-color:blueviolet;
+}
+
+.right-div{
+  background-color: green;
+   
+}
+
+
+
+
